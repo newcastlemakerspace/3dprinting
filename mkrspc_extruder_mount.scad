@@ -5,7 +5,7 @@ height = 8;
 
 module adjustable_bolt_slot(){
 	// suits M4 bolts (M4x50 for the makerspace .5mm extruder)
-	slot_length = 7;
+	slot_length = 5;
 	slot_width = 7;
 
 	translate([0,0,3.9]){
@@ -48,9 +48,9 @@ module extruder_mount(){
 
 		// spacing between hot-end bolts is 30mm
 		translate([0, 15, -0.1])
-			cylinder(r=1.55, h=height+0.2, $fn=30);
+			cylinder(r=2.1, h=height+0.2, $fn=30);
 		translate([0, -15, -0.1])
-			cylinder(r=1.55, h=height+0.2, $fn=30);
+			cylinder(r=2.1, h=height+0.2, $fn=30);
 
 		// space for M3 bolt head on top (part is upside down in scad)
 		translate([0, 15, -0.1])
