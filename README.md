@@ -11,3 +11,8 @@ Configurations and parts for 3D printing
     http://www.thingiverse.com/thing:18379
     
     
+X,Y,E calibration:
+
+M92 X79.8 Y79.8 E420.0
+
+(Y is slightly too high)
